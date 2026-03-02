@@ -119,6 +119,15 @@ BrowserAgent ──[raw_queue]──> ParserAgent ──[clean_queue]──> Wri
   side. The scraper retries up to 3 times with exponential backoff (2s → 4s → 8s)
   before logging the failure and continuing.
 
+## Documentation
+
+| Document | Contents |
+|----------|----------|
+| [docs/lessons_learned.md](docs/lessons_learned.md) | Every major obstacle hit during development and how to avoid it |
+| [docs/testing.md](docs/testing.md) | Test strategy, recommended additions, CI/CD setup |
+| [docs/security.md](docs/security.md) | Data handling, rate limiting, dependency auditing, GDPR notes |
+| [docs/future_improvements.md](docs/future_improvements.md) | Prioritised roadmap: performance, data quality, usability |
+
 ## License
 
 MIT
